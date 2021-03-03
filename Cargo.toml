@@ -1,0 +1,12 @@
+[package]
+name = "assert_panic_free"
+version = "1.0.0"
+authors = ["Tyler Neely <t@jujit.su>"]
+description = "Assert that some code is panic-free. Fast to compile, no syn or macros etc..."
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/spacejam/assert_panic_free"
+repository = "https://github.com/spacejam/assert_panic_free"
+keywords = ["panic", "debugging", "safety", "correctness", "nostd"]
+categories = ["no-std", "development-tools", "development-tools::testing"]
+documentation = "https://docs.rs/assert_panic_free/"
+edition = "2018"
