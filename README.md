@@ -19,4 +19,4 @@ doesn't work:
 assert_panic_free(|| panic!(":("));
 ```
 
-Inspired by [this](https://github.com/dtolnay/no-panic) and [this](https://github.com/japaric/panic-never) but without requiring proc macros and corresponding long compilation times.
+Inspired by [no_panic](https://github.com/dtolnay/no-panic) and [panic_never](https://github.com/japaric/panic-never) but I wanted something that allowed for fine-grained panic reduction (like no_panic) but also something that compiled fast (like panic_never).
